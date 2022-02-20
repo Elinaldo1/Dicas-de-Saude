@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/dicasdesaude/static/css/main.ac1207f4.chunk.css",
-    "main.js": "/dicasdesaude/static/js/main.d143cf1c.chunk.js",
-    "main.js.map": "/dicasdesaude/static/js/main.d143cf1c.chunk.js.map",
+    "main.css": "/dicasdesaude/static/css/main.8df0db29.chunk.css",
+    "main.js": "/dicasdesaude/static/js/main.b6cd2b62.chunk.js",
+    "main.js.map": "/dicasdesaude/static/js/main.b6cd2b62.chunk.js.map",
     "runtime-main.js": "/dicasdesaude/static/js/runtime-main.db38163c.js",
     "runtime-main.js.map": "/dicasdesaude/static/js/runtime-main.db38163c.js.map",
     "static/js/2.6a1545e0.chunk.js": "/dicasdesaude/static/js/2.6a1545e0.chunk.js",
     "static/js/2.6a1545e0.chunk.js.map": "/dicasdesaude/static/js/2.6a1545e0.chunk.js.map",
     "index.html": "/dicasdesaude/index.html",
-    "static/css/main.ac1207f4.chunk.css.map": "/dicasdesaude/static/css/main.ac1207f4.chunk.css.map",
+    "static/css/main.8df0db29.chunk.css.map": "/dicasdesaude/static/css/main.8df0db29.chunk.css.map",
     "static/js/2.6a1545e0.chunk.js.LICENSE.txt": "/dicasdesaude/static/js/2.6a1545e0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.db38163c.js",
     "static/js/2.6a1545e0.chunk.js",
-    "static/css/main.ac1207f4.chunk.css",
-    "static/js/main.d143cf1c.chunk.js"
+    "static/css/main.8df0db29.chunk.css",
+    "static/js/main.b6cd2b62.chunk.js"
   ]
 }
