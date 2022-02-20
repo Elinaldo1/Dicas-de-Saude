@@ -108,7 +108,8 @@ export default function App(params) {
               <p className= 'subtitulo'>
                 {subtitulo}
               </p>
-              <a className = 'botao'>Acessar</a>
+              
+              <a href = 'view post' className = 'botao'>Acessar</a>
             </article>
           )
         })
