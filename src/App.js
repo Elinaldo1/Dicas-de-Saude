@@ -101,9 +101,7 @@ export default function App(params) {
           nutri.map(item => {
           const {id, titulo, capa, subtitulo} = item;
           return(
-            <article style={{
-              width:'100%'
-            }} className='post' key= {id} >
+            <article className='post' key= {id} >
               <strong className='titulo'>{titulo}</strong>
               <img src = {capa} alt = {titulo} className = 'capa' />
               <p className= 'subtitulo'>

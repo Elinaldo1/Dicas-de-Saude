@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 700px;
+    width: 75%;
 }
 
 .titulo{
@@ -40,4 +40,10 @@
     background-color: #4c89e3;
     color: #fff;
     cursor: pointer;
+}
+
+@media(max-width: 600px){
+    .post{
+        width: 100%;
+    }
 }
