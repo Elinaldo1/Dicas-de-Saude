@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Recepcao from "./components/Recepcao";
 import './style.css';
 
@@ -6,22 +6,22 @@ const array = ["Chefe😎", "Chefia😉", "Chefinho✌", "Patrão"]
 
 export default function App(params) {
 
-  const [nutri, setNutri] = useState([]);
+  // const [nutri, setNutri] = useState([]);
 
-  useEffect(()=>{
+  // useEffect(()=>{
 
-    function loadApi(params) {
-      const url = 'https://sujeitoprogramador.com/rn-api/?api=posts';
-      fetch(url)
-      .then( res => res.json()) 
-      .then( res => {
-        setNutri(res);
-      })
-    }
+  //   function loadApi(params) {
+  //     const url = 'https://sujeitoprogramador.com/rn-api/?api=posts';
+  //     fetch(url)
+  //     .then( res => res.json()) 
+  //     .then( res => {
+  //       setNutri(res);
+  //     })
+  //   }
 
-    loadApi();
+  //   loadApi();
 
-  },[])
+  // },[])
 
   const [admin, setAdmin] = useState('Super');
   const [nome, setNome] = useState('');
@@ -82,40 +82,41 @@ export default function App(params) {
 
       <br />
 
-      {user.nome && <div style={{ fontSize: 24, paddingLeft: '50%', alignItems: "center", backgroundColor: '#1002' }} >
-        <span>
-          <strong>Bem Vindo: </strong> {nome}
-        </span>
-        <br />
-        <span>
-          <strong>Email: </strong> {email}
-        </span>
-        <br />
-        <span>
-          <strong>Idade: </strong> {idade}
-        </span>
-      </div>}
-
-      {
-        nutri.map(item => {
-          const {id, titulo, capa, subtitulo} = item;
-          return(
-            <article style={{
-              width:'100%'
-            }} className='post' key= {id} >
-              <strong className='titulo'>{titulo}</strong>
-              <img src = {capa} alt = {titulo} className = 'capa' />
-              <p className= 'subtitulo'>
-                {subtitulo}
-              </p>
+      {user.nome && 
+        <div style={{ fontSize: 24, paddingLeft: '50%', alignItems: "center", backgroundColor: '#1002' }} >
+            <span>
+              <strong>Bem Vindo: </strong> {nome}
+            </span>
+            <br />
+            <span>
+              <strong>Email: </strong> {email}
+            </span>
+            <br />
+            <span>
+              <strong>Idade: </strong> {idade}
+            </span>
+        </div>}
+        
+        </div>
+      // {
+      //   nutri.map(item => {
+      //     const {id, titulo, capa, subtitulo} = item;
+      //     return(
+      //       <article style={{
+      //         width:'100%'
+      //       }} className='post' key= {id} >
+      //         <strong className='titulo'>{titulo}</strong>
+      //         <img src = {capa} alt = {titulo} className = 'capa' />
+      //         <p className= 'subtitulo'>
+      //           {subtitulo}
+      //         </p>
               
-              <a href = 'view post' className = 'botao'>Acessar</a>
-            </article>
-          )
-        })
-      }
+      //         <a href = 'view post' className = 'botao'>Acessar</a>
+      //       </article>
+      //     )
+      //   })
+      // }
 
-    </div>
   )
 
 }
