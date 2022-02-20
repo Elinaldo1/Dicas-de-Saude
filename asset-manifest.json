@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/dicasdesaude/static/css/main.8df0db29.chunk.css",
-    "main.js": "/dicasdesaude/static/js/main.b6cd2b62.chunk.js",
-    "main.js.map": "/dicasdesaude/static/js/main.b6cd2b62.chunk.js.map",
-    "runtime-main.js": "/dicasdesaude/static/js/runtime-main.db38163c.js",
-    "runtime-main.js.map": "/dicasdesaude/static/js/runtime-main.db38163c.js.map",
-    "static/js/2.6a1545e0.chunk.js": "/dicasdesaude/static/js/2.6a1545e0.chunk.js",
-    "static/js/2.6a1545e0.chunk.js.map": "/dicasdesaude/static/js/2.6a1545e0.chunk.js.map",
-    "index.html": "/dicasdesaude/index.html",
-    "static/css/main.8df0db29.chunk.css.map": "/dicasdesaude/static/css/main.8df0db29.chunk.css.map",
-    "static/js/2.6a1545e0.chunk.js.LICENSE.txt": "/dicasdesaude/static/js/2.6a1545e0.chunk.js.LICENSE.txt"
+    "main.css": "/gh-pages/static/css/main.8df0db29.chunk.css",
+    "main.js": "/gh-pages/static/js/main.b6cd2b62.chunk.js",
+    "main.js.map": "/gh-pages/static/js/main.b6cd2b62.chunk.js.map",
+    "runtime-main.js": "/gh-pages/static/js/runtime-main.969d5ecc.js",
+    "runtime-main.js.map": "/gh-pages/static/js/runtime-main.969d5ecc.js.map",
+    "static/js/2.6a1545e0.chunk.js": "/gh-pages/static/js/2.6a1545e0.chunk.js",
+    "static/js/2.6a1545e0.chunk.js.map": "/gh-pages/static/js/2.6a1545e0.chunk.js.map",
+    "index.html": "/gh-pages/index.html",
+    "static/css/main.8df0db29.chunk.css.map": "/gh-pages/static/css/main.8df0db29.chunk.css.map",
+    "static/js/2.6a1545e0.chunk.js.LICENSE.txt": "/gh-pages/static/js/2.6a1545e0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.db38163c.js",
+    "static/js/runtime-main.969d5ecc.js",
     "static/js/2.6a1545e0.chunk.js",
     "static/css/main.8df0db29.chunk.css",
     "static/js/main.b6cd2b62.chunk.js"
